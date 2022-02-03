@@ -1,0 +1,92 @@
+/* Textos */
+.community {
+    text-align: center;
+    padding: 5rem;
+}
+
+.community-title {
+    margin-bottom: 1rem;
+    color: #8D0606;
+    font-size: 3.1875rem;
+    font-family: Pacifico, cursive;
+}
+
+.community-description {
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959; 
+}
+
+/* Pessoas */
+
+.community-people {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.community-person {
+    display: flex;
+    flex-direction: column;
+}
+
+.community-person-name {
+    margin: 1rem 0;
+    font-family: Pacifico, cursive;
+    color: #8D0606;
+    font-size: 2rem;
+}
+
+.community-person-role {
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+}
+
+/* Imagens */
+
+.community-person-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+.community-person-img.img-roberta {
+    background-image: url('../../img/pessoas/roberta.jpg');
+}
+
+.community-person-img.img-marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+
+.community-person-img.img-andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
+
+@media screen and (min-width: 0){
+    .community {
+        padding: 3rem;
+    }
+
+    .community-people {
+        flex-direction: column;
+    }
+
+    .community-person {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .community-people {
+        flex-direction: row;
+    }
+
+    .community-person {
+        margin-bottom: 0;
+    }
+}

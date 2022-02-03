@@ -1,0 +1,44 @@
+.about {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.about-title {
+    font-family: Pacifico, cursive;
+    color: #8D0606;
+    font-size: 3.1875rem;
+}
+
+.about-description {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0) {
+    .about {
+        padding: 2.5rem 1rem;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-description {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 2.5rem;
+    }
+
+    .about-title {
+        font-size: 3.1875rem;
+    }
+
+    .about-description {
+        font-size: 1.75rem;
+    }
+}
